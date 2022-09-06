@@ -64,6 +64,7 @@ python kfold_inference.py
 * label smoothing: 0.1
 ### Testing Details
 * Test Time Augmentation (Horizontal/Vertical Flip)
+* Hard Voting
 ***
 ## Tried Techniques
 * Hard Crop Augmentation (224, 256, 320)
