@@ -62,7 +62,7 @@ python kfold_inference.py
 * image size: 224
 * scheduler: CosineAnnleaingLR (T_max: 10, eta_min: 1e-6)
 * label smoothing: 0.1
-### Test Details
+### Testing Details
 * Test Time Augmentation (Horizontal/Vertical Flip)
 ***
 ## Tried Techniques
