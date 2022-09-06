@@ -1,7 +1,6 @@
 # 서울 랜드마크 이미지 분류 경진대회
 Dacon Basic | CV | Classification | Landmark | Accuracy<br>
 랜드마크 이미지 데이터셋을 이용하여 랜드마크의 라벨을 분류
-
 <br>[Competition Link](https://dacon.io/competitions/official/235957/overview/description)
 * 주최/주관: Dacon
 * **Private 4th, Score 1.0**
@@ -59,10 +58,12 @@ python kfold_inference.py
 * epochs: 200
 * mixup epochs: 180
 * batch size: 8
-* optimizer: AdamW~
+* optimizer: AdamW
 * image size: 224
 * scheduler: CosineAnnleaingLR (T_max: 10, eta_min: 1e-6)
 * label smoothing: 0.1
+### Test Details
+* Test Time Augmentation (Horizontal/Vertical Flip)
 ***
 ## Tried Techniques
 * Hard Crop Augmentation (224, 256, 320)
