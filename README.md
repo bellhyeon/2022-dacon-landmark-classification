@@ -3,7 +3,7 @@ Dacon Basic | CV | Classification | Landmark | Accuracy<br>
 랜드마크 이미지 데이터셋을 이용하여 랜드마크의 라벨을 분류
 <br>[Competition Link](https://dacon.io/competitions/official/235957/overview/description)
 * 주최/주관: Dacon
-* **Private 4th, Score 1.0**
+* **최종 2nd, Score 1.0**
 ***
 ## Structure
 Train/Test data folder and sample submission file must be placed under **dataset** folder.
